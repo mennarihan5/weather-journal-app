@@ -49,6 +49,7 @@ console.log(req.body);
  	temp: req.body.temp,
  	content: req.body.content
  }
+  projectData.pop(newEntry);
   projectData.push(newEntry);
 }
 
